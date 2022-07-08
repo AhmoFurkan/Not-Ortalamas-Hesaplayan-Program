@@ -35,17 +35,12 @@ public class Main {
 
         int toplam  = (mat + fizik + kimya + turkce + tarih + muzik);
         double sonuc = toplam / 6;
-        boolean kosul1= sonuc>60;
-        boolean kosul2= sonuc<60;
+          System.out.println("ortalamanız : " + sonuc);
+         String x  = sonuc>=60  ? "Sınıfı Geçti" : "Sınıfta Kaldın";
+     System.out.println(x);
 
-        boolean sonuc2 = kosul1 || kosul2;
-        String str = sonuc2 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
-
-
-
-        System.out.println("ortalamanız : " + sonuc);
-        System.out.println(str);
-
+   
+      
 
 
 
